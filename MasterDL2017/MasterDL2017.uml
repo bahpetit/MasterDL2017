@@ -46,6 +46,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UgRa0MroEeeu1twilaiMTQ" name="Requirement1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3S6toMrYEee9jsGys1t6BQ" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Class" xmi:id="_367lVMrXEee9jsGys1t6BQ" name="SH_ACO_010"/>
@@ -190,4 +191,5 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_Uh5ygMroEeeu1twilaiMTQ" base_Class="_UgRa0MroEeeu1twilaiMTQ"/>
 </xmi:XMI>
