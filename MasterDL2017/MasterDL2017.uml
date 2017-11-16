@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_GEz7QMVgEeeCE7XyF9h1YA" name="TP1">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_GaJ5IMVgEeeCE7XyF9h1YA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -13,7 +13,37 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QcrXEee9jsGys1t6BQ" name="SH_SEC_030"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_367lUcrXEee9jsGys1t6BQ" name="SH_SEC_050">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJYMreEeeSVpVqKOhnEw" name="SH_SEC_50_1" classifierBehavior="_ywxJYcreEeeSVpVqKOhnEw">
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJYcreEeeSVpVqKOhnEw" name="Interaction1">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_ywxJYsreEeeSVpVqKOhnEw"/>
+            </ownedBehavior>
+            <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJY8reEeeSVpVqKOhnEw" name="Capteur"/>
+            <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZMreEeeSVpVqKOhnEw" name="Détecte le feu"/>
+            <nestedClassifier xmi:type="uml:UseCase" xmi:id="_ywxJZcreEeeSVpVqKOhnEw" name="Envoie un signal" classifierBehavior="_ywxJZsreEeeSVpVqKOhnEw">
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJZsreEeeSVpVqKOhnEw" name="Interaction1">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJZ8reEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
+                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJaMreEeeSVpVqKOhnEw" name="Système" coveredBy="_ywxJa8reEeeSVpVqKOhnEw"/>
+                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJacreEeeSVpVqKOhnEw" name="" represents="_ywxJZ8reEeeSVpVqKOhnEw" coveredBy="_ywxJasreEeeSVpVqKOhnEw"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJasreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJacreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJa8reEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJaMreEeeSVpVqKOhnEw" message="_ywxJbMreEeeSVpVqKOhnEw"/>
+                <message xmi:type="uml:Message" xmi:id="_ywxJbMreEeeSVpVqKOhnEw" name="Envoie un message" messageSort="asynchCall" receiveEvent="_ywxJa8reEeeSVpVqKOhnEw" sendEvent="_ywxJasreEeeSVpVqKOhnEw"/>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ywxJbcreEeeSVpVqKOhnEw" name="Interaction2">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_ywxJbsreEeeSVpVqKOhnEw" name="" type="_ywxJY8reEeeSVpVqKOhnEw"/>
+                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJb8reEeeSVpVqKOhnEw" name="" represents="_ywxJbsreEeeSVpVqKOhnEw" coveredBy="_ywxJccreEeeSVpVqKOhnEw"/>
+                <lifeline xmi:type="uml:Lifeline" xmi:id="_ywxJcMreEeeSVpVqKOhnEw" name="Système de notifications" coveredBy="_ywxJcsreEeeSVpVqKOhnEw _ywxJc8reEeeSVpVqKOhnEw _ywxJdMreEeeSVpVqKOhnEw"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJccreEeeSVpVqKOhnEw" name="Message1SendEvent" covered="_ywxJb8reEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ywxJcsreEeeSVpVqKOhnEw" name="Message1ReceiveEvent" covered="_ywxJcMreEeeSVpVqKOhnEw" message="_ywxJdcreEeeSVpVqKOhnEw"/>
+                <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ywxJc8reEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1Finish" covered="_ywxJcMreEeeSVpVqKOhnEw" execution="_ywxJdMreEeeSVpVqKOhnEw"/>
+                <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ywxJdMreEeeSVpVqKOhnEw" name="BehaviorExecutionSpecification1" covered="_ywxJcMreEeeSVpVqKOhnEw" finish="_ywxJc8reEeeSVpVqKOhnEw" start="_ywxJcsreEeeSVpVqKOhnEw"/>
+                <message xmi:type="uml:Message" xmi:id="_ywxJdcreEeeSVpVqKOhnEw" name="Envoi une notification" receiveEvent="_ywxJcsreEeeSVpVqKOhnEw" sendEvent="_ywxJccreEeeSVpVqKOhnEw"/>
+              </ownedBehavior>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Actor" xmi:id="_ywxJdsreEeeSVpVqKOhnEw" name="Système"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ywxJd8reEeeSVpVqKOhnEw" name="SH_SEC_50_2"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
       </packagedElement>
@@ -110,4 +140,7 @@
   <Requirements:Requirement xmi:id="_363T7srXEee9jsGys1t6BQ" base_Class="_367lW8rXEee9jsGys1t6BQ" id="SH_ECO_010" text="The Smart Home must save energy."/>
   <Requirements:Requirement xmi:id="_363T78rXEee9jsGys1t6BQ" base_Class="_367lXMrXEee9jsGys1t6BQ" id="SH_ECO_020" text="The Smart Home annual consumption should be less than local regulations."/>
   <Requirements:Requirement xmi:id="_363T8MrXEee9jsGys1t6BQ" base_Class="_367lXcrXEee9jsGys1t6BQ" id="SH_ECO_030" text="The Smart Home must prevent unauthorized physical intrusion."/>
+  <Requirements:Requirement xmi:id="_yw6TUMreEeeSVpVqKOhnEw" base_Class="_ywxJYMreEeeSVpVqKOhnEw" id="SH_SEC_50_1" text="Le SHS doit être capable de détecter la fumée&#xD;&#xA;"/>
+  <ModelElements:ElementGroup xmi:id="_yxEEUMreEeeSVpVqKOhnEw" base_Comment="_ywxJYsreEeeSVpVqKOhnEw"/>
+  <Requirements:Requirement xmi:id="_yxEEUcreEeeSVpVqKOhnEw" base_Class="_ywxJd8reEeeSVpVqKOhnEw" id="SH_SEC_50_2" text="Le SHS doit appeler les pompiers en cas de suspicion d'incendie"/>
 </xmi:XMI>
