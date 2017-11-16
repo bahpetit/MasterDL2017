@@ -673,4 +673,25 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ywxKGsreEeeSVpVqKOhnEw" id="(0.5,0.32285714285714284)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_K4KYcMrlEee8r91bHcjxag" type="PapyrusUMLSequenceDiagram" name="sequenceDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_K4KYccrlEee8r91bHcjxag" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_K4KYcsrlEee8r91bHcjxag" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_K4KYc8rlEee8r91bHcjxag" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_Ngiv8MrlEee8r91bHcjxag" type="Comment_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_NgjXAMrlEee8r91bHcjxag" type="Comment_BodyLabel"/>
+          <element xmi:type="uml:Comment" href="MasterDL2017.uml#_NgfFkMrlEee8r91bHcjxag"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ngiv8crlEee8r91bHcjxag" x="474" y="117"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K4KYdMrlEee8r91bHcjxag"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="MasterDL2017.uml#_JazpoMrlEee8r91bHcjxag"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K4KYdcrlEee8r91bHcjxag"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_K4KYdsrlEee8r91bHcjxag" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_K4KYd8rlEee8r91bHcjxag"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_K4KYeMrlEee8r91bHcjxag" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
+      <owner xmi:type="uml:Model" href="MasterDL2017.uml#_GEz7QMVgEeeCE7XyF9h1YA"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="MasterDL2017.uml#_JazpoMrlEee8r91bHcjxag"/>
+  </notation:Diagram>
 </xmi:XMI>

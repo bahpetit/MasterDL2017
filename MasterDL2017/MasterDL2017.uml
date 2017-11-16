@@ -62,6 +62,12 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXcrXEee9jsGys1t6BQ" name="SH_ECO_030"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_JazpoMrlEee8r91bHcjxag" name="Interaction1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_NgfFkMrlEee8r91bHcjxag">
+        <body>Ceci est un commentaire.
+</body>
+      </ownedComment>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GZyswMVgEeeCE7XyF9h1YA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ9E0MVgEeeCE7XyF9h1YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
