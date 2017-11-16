@@ -144,5 +144,5 @@
   <Requirements:Requirement xmi:id="_yw6TUMreEeeSVpVqKOhnEw" base_Class="_ywxJYMreEeeSVpVqKOhnEw" id="SH_SEC_50_1" text="Le SHS doit être capable de détecter la fumée&#xD;&#xA;"/>
   <ModelElements:ElementGroup xmi:id="_yxEEUMreEeeSVpVqKOhnEw" base_Comment="_ywxJYsreEeeSVpVqKOhnEw"/>
   <Requirements:Requirement xmi:id="_yxEEUcreEeeSVpVqKOhnEw" base_Class="_ywxJd8reEeeSVpVqKOhnEw" id="SH_SEC_50_2" text="Le SHS doit appeler les pompiers en cas de suspicion d'incendie"/>
-  <Requirements:Requirement xmi:id="_h-vu8crkEeeRHoxgp59rTA" base_Class="_h-vu8MrkEeeRHoxgp59rTA" id="SH_SEC_070_1" text="Le SHS &#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_h-vu8crkEeeRHoxgp59rTA" base_Class="_h-vu8MrkEeeRHoxgp59rTA" id="SH_SEC_070_1" text="Le SHS  se verrouille au départ du dernier occupant"/>
 </xmi:XMI>
