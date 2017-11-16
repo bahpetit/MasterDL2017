@@ -46,6 +46,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QMrXEee9jsGys1t6BQ" name="SH_SEC_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lU8rXEee9jsGys1t6BQ" name="SH_SEC_070"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h-vu8MrkEeeRHoxgp59rTA" name="Requirement1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3S6toMrYEee9jsGys1t6BQ" name="ExigencesAdaptation">
         <packagedElement xmi:type="uml:Class" xmi:id="_367lVMrXEee9jsGys1t6BQ" name="SH_ACO_010"/>
@@ -143,4 +144,5 @@
   <Requirements:Requirement xmi:id="_yw6TUMreEeeSVpVqKOhnEw" base_Class="_ywxJYMreEeeSVpVqKOhnEw" id="SH_SEC_50_1" text="Le SHS doit être capable de détecter la fumée&#xD;&#xA;"/>
   <ModelElements:ElementGroup xmi:id="_yxEEUMreEeeSVpVqKOhnEw" base_Comment="_ywxJYsreEeeSVpVqKOhnEw"/>
   <Requirements:Requirement xmi:id="_yxEEUcreEeeSVpVqKOhnEw" base_Class="_ywxJd8reEeeSVpVqKOhnEw" id="SH_SEC_50_2" text="Le SHS doit appeler les pompiers en cas de suspicion d'incendie"/>
+  <Requirements:Requirement xmi:id="_h-vu8crkEeeRHoxgp59rTA" base_Class="_h-vu8MrkEeeRHoxgp59rTA" id="SH_SEC_070_1" text="Le SHS &#xD;&#xA;"/>
 </xmi:XMI>
