@@ -9,7 +9,6 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_usPywMrYEee9jsGys1t6BQ" name="BesoinsInitiaux">
       <packagedElement xmi:type="uml:Package" xmi:id="_WH6ygMVgEeeCE7XyF9h1YA" name="ExigencesDeSecurite">
-        <packagedElement xmi:type="uml:Class" xmi:id="_36368MrXEee9jsGys1t6BQ" name="SH_SEC_010"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUsrXEee9jsGys1t6BQ" name="SH_SEC_060"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_366-QcrXEee9jsGys1t6BQ" name="SH_SEC_030"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lUMrXEee9jsGys1t6BQ" name="SH_SEC_040"/>
@@ -60,6 +59,23 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_367lW8rXEee9jsGys1t6BQ" name="SH_ECO_010"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXMrXEee9jsGys1t6BQ" name="SH_ECO_020"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_367lXcrXEee9jsGys1t6BQ" name="SH_ECO_030"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-iPUcNBREeeQNNX5jAAUFg" name="AccesSecurite">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6DL5wNBSEeeQNNX5jAAUFg" name="SH_SEC_010">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wL4A8NBTEeeQNNX5jAAUFg" name="ACCES_BIO"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a3DboNBXEeeQNNX5jAAUFg" name="SH_SEC_010_2"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_V0RBwNBYEeeQNNX5jAAUFg" name="SH_SEC_010_4"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_G356sNBZEeeQNNX5jAAUFg" name="reconnaissance" client="_a3DboNBXEeeQNNX5jAAUFg" supplier="_36368MrXEee9jsGys1t6BQ"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_tVr6INBXEeeQNNX5jAAUFg" name="SH_SEC_010_2_1"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_YEoFYNBZEeeQNNX5jAAUFg" name="occupants" client="_tVr6INBXEeeQNNX5jAAUFg" supplier="_a3DboNBXEeeQNNX5jAAUFg"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_304yANBZEeeQNNX5jAAUFg" name="SH_SEC_010_2_2"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_DM2IwNBaEeeQNNX5jAAUFg" name="reconnaitre-non-occupants" client="_304yANBZEeeQNNX5jAAUFg" supplier="_a3DboNBXEeeQNNX5jAAUFg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_G17S0NBbEeeQNNX5jAAUFg" name="envoiMessage" client="_V0RBwNBYEeeQNNX5jAAUFg" supplier="_36368MrXEee9jsGys1t6BQ"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JaWXYNBbEeeQNNX5jAAUFg" name="SH_SEC_010_4_1"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_VUB7INBbEeeQNNX5jAAUFg" name="messageInstrusion" client="_JaWXYNBbEeeQNNX5jAAUFg" supplier="_V0RBwNBYEeeQNNX5jAAUFg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_giKQINrSEeebgdJJ_EF0pw" name="entrerBiometrique" client="_wL4A8NBTEeeQNNX5jAAUFg" supplier="_36368MrXEee9jsGys1t6BQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_36368MrXEee9jsGys1t6BQ" name="SH_SEC_010"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8weo4MrgEee9jsGys1t6BQ" name="Acteurs">
@@ -200,4 +216,16 @@
   <Blocks:Block xmi:id="_nGJDYMrgEee9jsGys1t6BQ" base_Class="_nGBHkMrgEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_JRkx8MrhEee9jsGys1t6BQ" base_Class="_JReEQMrhEee9jsGys1t6BQ"/>
   <Blocks:Block xmi:id="_rDd_IMrhEee9jsGys1t6BQ" base_Class="_rDXRcMrhEee9jsGys1t6BQ"/>
+  <Requirements:Requirement xmi:id="_wMBK4NBTEeeQNNX5jAAUFg" base_Class="_wL4A8NBTEeeQNNX5jAAUFg" id="SH_SEC_010_1" text="La MI ne doit laisser entrer qu'un resident reconnu biometriquement"/>
+  <Requirements:Requirement xmi:id="_a3DbodBXEeeQNNX5jAAUFg" base_Class="_a3DboNBXEeeQNNX5jAAUFg" id="SH_SEC_010_2" text="La MI doit reconnaitre les personnes qui sont à l'interieur de la maison"/>
+  <Requirements:Requirement xmi:id="_tV1EENBXEeeQNNX5jAAUFg" base_Class="_tVr6INBXEeeQNNX5jAAUFg" id="SH_SEC_010_2_1" text="La MI doit reconnaitre ses occupants"/>
+  <Requirements:Requirement xmi:id="_V0aLsNBYEeeQNNX5jAAUFg" base_Class="_V0RBwNBYEeeQNNX5jAAUFg" id="SH_SEC_010_4" text="La MI doit être capable d'envoyer un message "/>
+  <Requirements:DeriveReqt xmi:id="_G4ODwNBZEeeQNNX5jAAUFg" base_DirectedRelationship="_G356sNBZEeeQNNX5jAAUFg" base_Abstraction="_G356sNBZEeeQNNX5jAAUFg"/>
+  <Requirements:Refine xmi:id="_YE7nYNBZEeeQNNX5jAAUFg" base_DirectedRelationship="_YEoFYNBZEeeQNNX5jAAUFg" base_Abstraction="_YEoFYNBZEeeQNNX5jAAUFg"/>
+  <Requirements:Requirement xmi:id="_31CjANBZEeeQNNX5jAAUFg" base_Class="_304yANBZEeeQNNX5jAAUFg" id="SH_SEC_010_2_2" text="La MI doit reconnaitre les intrus"/>
+  <Requirements:DeriveReqt xmi:id="_DNK44NBaEeeQNNX5jAAUFg" base_DirectedRelationship="_DM2IwNBaEeeQNNX5jAAUFg" base_Abstraction="_DM2IwNBaEeeQNNX5jAAUFg"/>
+  <Requirements:DeriveReqt xmi:id="_G2ONwNBbEeeQNNX5jAAUFg" base_DirectedRelationship="_G17S0NBbEeeQNNX5jAAUFg" base_Abstraction="_G17S0NBbEeeQNNX5jAAUFg"/>
+  <Requirements:Requirement xmi:id="_JagIYNBbEeeQNNX5jAAUFg" base_Class="_JaWXYNBbEeeQNNX5jAAUFg" id="SH_SEC_010_4_1" text="La MI doit être capable d'envoyer de message en cas d'intrusion"/>
+  <Requirements:Refine xmi:id="_VUU2ENBbEeeQNNX5jAAUFg" base_DirectedRelationship="_VUB7INBbEeeQNNX5jAAUFg" base_Abstraction="_VUB7INBbEeeQNNX5jAAUFg"/>
+  <Requirements:DeriveReqt xmi:id="_gj8_4NrSEeebgdJJ_EF0pw" base_DirectedRelationship="_giKQINrSEeebgdJJ_EF0pw" base_Abstraction="_giKQINrSEeebgdJJ_EF0pw"/>
 </xmi:XMI>
